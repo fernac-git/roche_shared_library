@@ -17,6 +17,7 @@ def call() {
                       version = build_utils.get_version()
                       build_utils.maven('-B -DskipTests clean package')
                       echo "HELLO FROM THE OTHER SIDE"
+                      echo "MY OWN LIBRARY"
                   }
               }
           }
